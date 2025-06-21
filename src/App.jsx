@@ -11,8 +11,8 @@ import Snake from '@pages/snake';
 
 const App = () => {
   useEffect(() => {
-    document.body.classList.remove('page');
-    document.body.classList.add('home');
+    // document.body.classList.remove('page');
+    // document.body.classList.add('home');
   }, []);
 
   return (

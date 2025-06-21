@@ -1,0 +1,14 @@
+.result-display {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 15px;
+  animation: pulse 1s ease-in-out;
+}

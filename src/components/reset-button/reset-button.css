@@ -1,0 +1,21 @@
+.reset-button-container {
+  text-align: center;
+}
+
+.reset-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+  padding: 12px 24px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.reset-button.hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.6);
+}

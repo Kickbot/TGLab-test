@@ -11,8 +11,8 @@ const LandingPage = () => {
   ];
 
   return (
-    <div className="container">
-      <h1 className="title">Выберите игру</h1>
+    <div className="wrapper">
+      <h1 className="wrapper-title">Выберите игру</h1>
       <div className="games-list">
         {games.map(game => (
           <Link
